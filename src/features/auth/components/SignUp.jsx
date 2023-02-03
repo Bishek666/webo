@@ -53,37 +53,37 @@ const SignUp = () => {
 
   return (
     <form className="flex flex-col justify-center items-center  p-4 mt-4 rounded-lg sticky min-h-96 ">
-      <div className="flex flex-col bg-blue-300 w-2/6 p-5">
-      <h2 className="text-4xl text-gray-50 mb-5">SignUp</h2>
-      <label htmlFor="name" className="text-lg text-gray-50 mb-3">
+      <div className="flex flex-col bg-white shadow-neuMorphismShadow rounded-xl w-2/6 p-5">
+      <h2 className="text-4xl text-gray-500 mb-5">SignUp</h2>
+      <label htmlFor="name" className="text-lg text-gray-500 mb-3">
         Full Name
       </label>
       <input
         name="name"
         type="text"
-        className="mb-5 px-2 py-3"
+        className="mb-5 px-2 py-3  shadow-neuMorphismShadow rounded-md"
         placeholder="Enter full name please"
         // value={event.name}
         onChange={onChange}
       />
-      <label htmlFor="email" className="text-lg text-gray-50 mb-3">
+      <label htmlFor="email" className="text-lg text-gray-500 mb-3">
         Email
       </label>
       <input
         name="email"
         type="email"
-        className="mb-5 px-2 py-3"
+        className="mb-5 px-2 py-3  shadow-neuMorphismShadow rounded-md"
         placeholder="Enter email please"
         // value={event.email}
         onChange={onChange}
       />
-      <label htmlFor="password" className="text-lg text-gray-50 mb-3">
+      <label htmlFor="password" className="text-lg text-gray-500 mb-3">
         Password
       </label>
       <input
         name="password"
         type="password"
-        className="mb-5 px-2 py-3"
+        className="mb-5 px-2 py-3  shadow-neuMorphismShadow rounded-md"
         placeholder="Enter password please"
         // value={event.password}
         onChange={onChange}
