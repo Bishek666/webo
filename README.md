@@ -4,6 +4,8 @@
 1) Need to login in order to add post or like and comment
 2) Click on comments drops down a comment section where
   if logged in users display a blue or else a teal color
+3) Profile image can be added when editing, I forgot to put profile image option
+  when creating as that feature was only implemented at late time.   
 
 <!-- Suggestions to make it better -->
 
